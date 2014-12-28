@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{CFA9224B-ACA2-4F2D-A00D-317AFC983CD5}</ProjectGuid>
+    <RootNamespace>PrioriART</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>E:\software files\Library\Image Library\build\include;$(IncludePath)</IncludePath>
+    <LibraryPath>E:\software files\Library\Image Library\build\x86\vc12\staticlib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>E:\software files\Library\Image Library\build\include;$(IncludePath)</IncludePath>
+    <LibraryPath>E:\software files\Library\Image Library\build\x86\vc12\staticlib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>vfw32.lib;comctl32.lib;zlibd.lib;libjasperd.lib;libjpegd.lib;libpngd.lib;libtiffd.lib;IlmImfd.lib;opencv_core249d.lib;opencv_imgproc249d.lib;opencv_highgui249d.lib;opencv_ml249d.lib;opencv_video249d.lib;opencv_features2d249d.lib;opencv_calib3d249d.lib;opencv_objdetect249d.lib;opencv_contrib249d.lib;opencv_legacy249d.lib;opencv_flann249d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>vfw32.lib;comctl32.lib;zlib.lib;libjasper.lib;libjpeg.lib;libpng.lib;libtiff.lib;IlmImf.lib;opencv_core249.lib;opencv_imgproc249.lib;opencv_highgui249.lib;opencv_ml249.lib;opencv_video249.lib;opencv_features2d249.lib;opencv_calib3d249.lib;opencv_objdetect249.lib;opencv_contrib249.lib;opencv_legacy249.lib;opencv_flann249.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\Bachelor%27s Degree\CS_CT\PrioriART\coding.h" />
+    <ClInclude Include="..\..\..\Bachelor%27s Degree\CS_CT\PrioriART\gui.h" />
+    <ClInclude Include="test_sparsematrix.h" />
+    <ClInclude Include="testcase.h" />
+    <ClInclude Include="auxiliary.h" />
+    <ClInclude Include="..\..\..\Bachelor%27s Degree\CS_CT\PrioriART\ctimage.h" />
+    <ClInclude Include="..\..\..\Bachelor%27s Degree\CS_CT\PrioriART\CTsystem.h" />
+    <ClInclude Include="..\..\..\Bachelor%27s Degree\CS_CT\PrioriART\genimage.h" />
+    <ClInclude Include="..\..\..\Bachelor%27s Degree\CS_CT\PrioriART\geometry.h" />
+    <ClInclude Include="..\..\..\Bachelor%27s Degree\CS_CT\PrioriART\io.h" />
+    <ClInclude Include="..\..\..\Bachelor%27s Degree\CS_CT\PrioriART\io_implementation.h" />
+    <ClInclude Include="..\..\..\Bachelor%27s Degree\CS_CT\PrioriART\rand.h" />
+    <ClInclude Include="..\..\..\Bachelor%27s Degree\CS_CT\PrioriART\testfunc.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\Bachelor%27s Degree\CS_CT\PrioriART\auxiliary.cpp" />
+    <ClCompile Include="..\..\..\Bachelor%27s Degree\CS_CT\PrioriART\coding.cpp" />
+    <ClCompile Include="..\..\..\Bachelor%27s Degree\CS_CT\PrioriART\ctimage.cpp" />
+    <ClCompile Include="..\..\..\Bachelor%27s Degree\CS_CT\PrioriART\CTsystem.cpp" />
+    <ClCompile Include="..\..\..\Bachelor%27s Degree\CS_CT\PrioriART\genimage.cpp" />
+    <ClCompile Include="..\..\..\Bachelor%27s Degree\CS_CT\PrioriART\geometry.cpp" />
+    <ClCompile Include="..\..\..\Bachelor%27s Degree\CS_CT\PrioriART\gui.cpp" />
+    <ClCompile Include="..\..\..\Bachelor%27s Degree\CS_CT\PrioriART\io.cpp" />
+    <ClCompile Include="..\..\..\Bachelor%27s Degree\CS_CT\PrioriART\main.cpp" />
+    <ClCompile Include="..\..\..\Bachelor%27s Degree\CS_CT\PrioriART\testcase.cpp" />
+    <ClCompile Include="..\..\..\Bachelor%27s Degree\CS_CT\PrioriART\testfunc.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\..\Bachelor%27s Degree\CS_CT\PrioriART\myimageformat.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

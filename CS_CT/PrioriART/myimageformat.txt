@@ -1,0 +1,34 @@
+Self-defined image format
+
+unsigned short: dim (2B)
+unsigned int: size([row, col] or [row, col, slice]) (4B * dim)
+double: FOV([X,Y] or [X,Y,Z]) (8B * dim)
+
+double: data (prod(size) * dim)	order( slice->row->col )
+(0,0,0)
+(0,1,0)
+(0,2,0)
+...
+(0,c-1,0)
+(1,0,0)
+(1,1,0)
+...
+(r-1,c-1,0)
+(0,0,1)
+(0,1,0)
+...
+(r-1,c-1,s-1)
+
+
+
+Projection data format (float, 4B)
+data:(angle, detector) 
+(0,0)
+(0,1)
+...
+(0,d-1)
+...
+(1,0)
+(1,1)
+...
+(a-1,d-1)
