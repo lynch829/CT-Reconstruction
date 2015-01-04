@@ -4,6 +4,7 @@
 
 #include "ctimage.h"
 
+// judge with CTPixel and l have intersection points and calculate them if any
 bool CTPixel::intersectWith(const Line& l){
 	bool inters = false;
 	Vec2d Pi[2];

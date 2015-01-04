@@ -1,8 +1,7 @@
 #include "testcase.h"
 
-int main(){
-	//demo1();
-	//demo2();
+int main(int argc, char** argv){
 	demo3();
+
 	return 0;
 }

@@ -1,3 +1,6 @@
+/* implementation of io.h
+ * Huayu Zhang, Dec 2014, DEP, THU
+ */
 #pragma once
 
 #include <cstdio>
@@ -5,7 +8,7 @@
 #include <cstring>
 
 template<typename DT>
-void readMatrix(string dir, string filename, DT*& arr, size_t* size, double* fov, unsigned short& dim){
+void readMatrix(string dir, string filename, DT*& arr, size_t* size, double* fov, unsigned short dim){
 	FILE* fp = NULL;
 	size_t result;
 	int Npixel = 1;
@@ -45,7 +48,7 @@ void readMatrix(string dir, string filename, DT*& arr, size_t* size, double* fov
 }
 
 template<typename DT>
-void writeMatrix(string dir, string filename, DT*& arr, size_t* size, double* fov, unsigned short& dim){
+void writeMatrix(string dir, string filename, DT* arr, size_t* size, double* fov, unsigned short dim){
 	FILE* fp = NULL;
 	size_t result;
 	int Npixel = 1;
@@ -57,7 +60,7 @@ void writeMatrix(string dir, string filename, DT*& arr, size_t* size, double* fo
 		exit(1);
 	}
 
-	result = fwrite(dim, sizeof(unsigned short), 1, fp);
+	result = fwrite(&dim, sizeof(unsigned short), 1, fp);
 	if (result != 1){
 		fputs("Dimension writing error", stderr);
 		exit(2);

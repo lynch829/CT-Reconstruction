@@ -1,4 +1,4 @@
-/* CT image
+/* CT/SPECT image
  * Include intersection information
  * weight factor in each pixel
  * Huayu Zhang, Dec 2014

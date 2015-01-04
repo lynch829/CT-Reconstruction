@@ -41,9 +41,6 @@
     <ClCompile Include="..\..\..\..\Bachelor%27s Degree\Program\CS_CT\PrioriART\testcase.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\Bachelor%27s Degree\Program\CS_CT\PrioriART\testfunc.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\..\Bachelor%27s Degree\Program\CS_CT\PrioriART\coding.h">
