@@ -9,110 +9,81 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Document">
-      <UniqueIdentifier>{5fa33213-2433-49db-958e-bea90ec1c5d4}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Test Cases">
-      <UniqueIdentifier>{7b2c6771-db6e-4f66-887b-54c2b56beedc}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Auxiliary">
-      <UniqueIdentifier>{6cb7139a-9346-4ba7-b3c2-873178ec123b}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Auxiliary\TimeTest">
-      <UniqueIdentifier>{602671c6-e8c2-4f81-ac5d-81a63b0fcae1}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Reconstruction">
-      <UniqueIdentifier>{802de35f-ddd4-4405-b4ba-ec5682b5b514}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Math">
-      <UniqueIdentifier>{03eb0350-d2a5-4f61-9c5a-8275626d7cbd}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Reconstruction\Image">
-      <UniqueIdentifier>{03315a3e-c2f8-4b58-8b4a-3e1e8aa7d3f2}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Reconstruction\System">
-      <UniqueIdentifier>{3e0e07d3-7260-48d9-8f12-664baf292bd4}</UniqueIdentifier>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{f13b06b6-f03c-4679-a9c9-d87fab21120b}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="testcase.h">
-      <Filter>Test Cases</Filter>
-    </ClInclude>
-    <ClInclude Include="auxiliary.h">
-      <Filter>Auxiliary</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\Bachelor%27s Degree\CS_CT\PrioriART\io.h">
-      <Filter>Auxiliary</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\Bachelor%27s Degree\CS_CT\PrioriART\io_implementation.h">
-      <Filter>Auxiliary</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\Bachelor%27s Degree\CS_CT\PrioriART\gui.h">
-      <Filter>Auxiliary</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\Bachelor%27s Degree\CS_CT\PrioriART\testfunc.h">
-      <Filter>Auxiliary\TimeTest</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\Bachelor%27s Degree\CS_CT\PrioriART\rand.h">
-      <Filter>Auxiliary\TimeTest</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\Bachelor%27s Degree\CS_CT\PrioriART\geometry.h">
-      <Filter>Math</Filter>
-    </ClInclude>
-    <ClInclude Include="test_sparsematrix.h">
-      <Filter>Test Cases</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\Bachelor%27s Degree\CS_CT\PrioriART\coding.h">
-      <Filter>Auxiliary</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\Bachelor%27s Degree\CS_CT\PrioriART\genimage.h">
-      <Filter>Reconstruction\Image</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\Bachelor%27s Degree\CS_CT\PrioriART\ctimage.h">
-      <Filter>Reconstruction\Image</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\Bachelor%27s Degree\CS_CT\PrioriART\CTsystem.h">
-      <Filter>Reconstruction\System</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\..\Bachelor%27s Degree\CS_CT\PrioriART\main.cpp">
+    <ClCompile Include="..\..\..\..\Bachelor%27s Degree\Program\CS_CT\PrioriART\coding.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\Bachelor%27s Degree\CS_CT\PrioriART\testcase.cpp">
-      <Filter>Test Cases</Filter>
+    <ClCompile Include="..\..\..\..\Bachelor%27s Degree\Program\CS_CT\PrioriART\ctimage.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\Bachelor%27s Degree\CS_CT\PrioriART\auxiliary.cpp">
-      <Filter>Auxiliary</Filter>
+    <ClCompile Include="..\..\..\..\Bachelor%27s Degree\Program\CS_CT\PrioriART\CTsystem.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\Bachelor%27s Degree\CS_CT\PrioriART\gui.cpp">
-      <Filter>Auxiliary</Filter>
+    <ClCompile Include="..\..\..\..\Bachelor%27s Degree\Program\CS_CT\PrioriART\genimage.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\Bachelor%27s Degree\CS_CT\PrioriART\testfunc.cpp">
-      <Filter>Auxiliary\TimeTest</Filter>
+    <ClCompile Include="..\..\..\..\Bachelor%27s Degree\Program\CS_CT\PrioriART\geometry.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\Bachelor%27s Degree\CS_CT\PrioriART\io.cpp">
-      <Filter>Auxiliary</Filter>
+    <ClCompile Include="..\..\..\..\Bachelor%27s Degree\Program\CS_CT\PrioriART\gui.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\Bachelor%27s Degree\CS_CT\PrioriART\geometry.cpp">
-      <Filter>Math</Filter>
+    <ClCompile Include="..\..\..\..\Bachelor%27s Degree\Program\CS_CT\PrioriART\io.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\Bachelor%27s Degree\CS_CT\PrioriART\coding.cpp">
-      <Filter>Auxiliary</Filter>
+    <ClCompile Include="..\..\..\..\Bachelor%27s Degree\Program\CS_CT\PrioriART\main.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\Bachelor%27s Degree\CS_CT\PrioriART\genimage.cpp">
-      <Filter>Reconstruction\Image</Filter>
+    <ClCompile Include="..\..\..\..\Bachelor%27s Degree\Program\CS_CT\PrioriART\testcase.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\Bachelor%27s Degree\CS_CT\PrioriART\ctimage.cpp">
-      <Filter>Reconstruction\Image</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\Bachelor%27s Degree\CS_CT\PrioriART\CTsystem.cpp">
-      <Filter>Reconstruction\System</Filter>
+    <ClCompile Include="..\..\..\..\Bachelor%27s Degree\Program\CS_CT\PrioriART\testfunc.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="..\..\..\Bachelor%27s Degree\CS_CT\PrioriART\myimageformat.txt">
-      <Filter>Document</Filter>
-    </Text>
+    <ClInclude Include="..\..\..\..\Bachelor%27s Degree\Program\CS_CT\PrioriART\coding.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Bachelor%27s Degree\Program\CS_CT\PrioriART\ctimage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Bachelor%27s Degree\Program\CS_CT\PrioriART\CTsystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Bachelor%27s Degree\Program\CS_CT\PrioriART\genimage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Bachelor%27s Degree\Program\CS_CT\PrioriART\geometry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Bachelor%27s Degree\Program\CS_CT\PrioriART\gui.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Bachelor%27s Degree\Program\CS_CT\PrioriART\io.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Bachelor%27s Degree\Program\CS_CT\PrioriART\io_implementation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Bachelor%27s Degree\Program\CS_CT\PrioriART\rand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Bachelor%27s Degree\Program\CS_CT\PrioriART\test_sparsematrix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Bachelor%27s Degree\Program\CS_CT\PrioriART\testcase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Bachelor%27s Degree\Program\CS_CT\PrioriART\testfunc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\..\..\Bachelor%27s Degree\Program\CS_CT\PrioriART\myimageformat.txt" />
   </ItemGroup>
 </Project>

@@ -10,6 +10,35 @@
       <Platform>Win32</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\Bachelor%27s Degree\Program\CS_CT\PrioriART\coding.cpp" />
+    <ClCompile Include="..\..\..\..\Bachelor%27s Degree\Program\CS_CT\PrioriART\ctimage.cpp" />
+    <ClCompile Include="..\..\..\..\Bachelor%27s Degree\Program\CS_CT\PrioriART\CTsystem.cpp" />
+    <ClCompile Include="..\..\..\..\Bachelor%27s Degree\Program\CS_CT\PrioriART\genimage.cpp" />
+    <ClCompile Include="..\..\..\..\Bachelor%27s Degree\Program\CS_CT\PrioriART\geometry.cpp" />
+    <ClCompile Include="..\..\..\..\Bachelor%27s Degree\Program\CS_CT\PrioriART\gui.cpp" />
+    <ClCompile Include="..\..\..\..\Bachelor%27s Degree\Program\CS_CT\PrioriART\io.cpp" />
+    <ClCompile Include="..\..\..\..\Bachelor%27s Degree\Program\CS_CT\PrioriART\main.cpp" />
+    <ClCompile Include="..\..\..\..\Bachelor%27s Degree\Program\CS_CT\PrioriART\testcase.cpp" />
+    <ClCompile Include="..\..\..\..\Bachelor%27s Degree\Program\CS_CT\PrioriART\testfunc.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\Bachelor%27s Degree\Program\CS_CT\PrioriART\coding.h" />
+    <ClInclude Include="..\..\..\..\Bachelor%27s Degree\Program\CS_CT\PrioriART\ctimage.h" />
+    <ClInclude Include="..\..\..\..\Bachelor%27s Degree\Program\CS_CT\PrioriART\CTsystem.h" />
+    <ClInclude Include="..\..\..\..\Bachelor%27s Degree\Program\CS_CT\PrioriART\genimage.h" />
+    <ClInclude Include="..\..\..\..\Bachelor%27s Degree\Program\CS_CT\PrioriART\geometry.h" />
+    <ClInclude Include="..\..\..\..\Bachelor%27s Degree\Program\CS_CT\PrioriART\gui.h" />
+    <ClInclude Include="..\..\..\..\Bachelor%27s Degree\Program\CS_CT\PrioriART\io.h" />
+    <ClInclude Include="..\..\..\..\Bachelor%27s Degree\Program\CS_CT\PrioriART\io_implementation.h" />
+    <ClInclude Include="..\..\..\..\Bachelor%27s Degree\Program\CS_CT\PrioriART\rand.h" />
+    <ClInclude Include="..\..\..\..\Bachelor%27s Degree\Program\CS_CT\PrioriART\testcase.h" />
+    <ClInclude Include="..\..\..\..\Bachelor%27s Degree\Program\CS_CT\PrioriART\testfunc.h" />
+    <ClInclude Include="..\..\..\..\Bachelor%27s Degree\Program\CS_CT\PrioriART\test_sparsematrix.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\..\..\Bachelor%27s Degree\Program\CS_CT\PrioriART\myimageformat.txt" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{CFA9224B-ACA2-4F2D-A00D-317AFC983CD5}</ProjectGuid>
     <RootNamespace>PrioriART</RootNamespace>
@@ -74,37 +103,6 @@
       <AdditionalDependencies>vfw32.lib;comctl32.lib;zlib.lib;libjasper.lib;libjpeg.lib;libpng.lib;libtiff.lib;IlmImf.lib;opencv_core249.lib;opencv_imgproc249.lib;opencv_highgui249.lib;opencv_ml249.lib;opencv_video249.lib;opencv_features2d249.lib;opencv_calib3d249.lib;opencv_objdetect249.lib;opencv_contrib249.lib;opencv_legacy249.lib;opencv_flann249.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\..\Bachelor%27s Degree\CS_CT\PrioriART\coding.h" />
-    <ClInclude Include="..\..\..\Bachelor%27s Degree\CS_CT\PrioriART\gui.h" />
-    <ClInclude Include="test_sparsematrix.h" />
-    <ClInclude Include="testcase.h" />
-    <ClInclude Include="auxiliary.h" />
-    <ClInclude Include="..\..\..\Bachelor%27s Degree\CS_CT\PrioriART\ctimage.h" />
-    <ClInclude Include="..\..\..\Bachelor%27s Degree\CS_CT\PrioriART\CTsystem.h" />
-    <ClInclude Include="..\..\..\Bachelor%27s Degree\CS_CT\PrioriART\genimage.h" />
-    <ClInclude Include="..\..\..\Bachelor%27s Degree\CS_CT\PrioriART\geometry.h" />
-    <ClInclude Include="..\..\..\Bachelor%27s Degree\CS_CT\PrioriART\io.h" />
-    <ClInclude Include="..\..\..\Bachelor%27s Degree\CS_CT\PrioriART\io_implementation.h" />
-    <ClInclude Include="..\..\..\Bachelor%27s Degree\CS_CT\PrioriART\rand.h" />
-    <ClInclude Include="..\..\..\Bachelor%27s Degree\CS_CT\PrioriART\testfunc.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\..\Bachelor%27s Degree\CS_CT\PrioriART\auxiliary.cpp" />
-    <ClCompile Include="..\..\..\Bachelor%27s Degree\CS_CT\PrioriART\coding.cpp" />
-    <ClCompile Include="..\..\..\Bachelor%27s Degree\CS_CT\PrioriART\ctimage.cpp" />
-    <ClCompile Include="..\..\..\Bachelor%27s Degree\CS_CT\PrioriART\CTsystem.cpp" />
-    <ClCompile Include="..\..\..\Bachelor%27s Degree\CS_CT\PrioriART\genimage.cpp" />
-    <ClCompile Include="..\..\..\Bachelor%27s Degree\CS_CT\PrioriART\geometry.cpp" />
-    <ClCompile Include="..\..\..\Bachelor%27s Degree\CS_CT\PrioriART\gui.cpp" />
-    <ClCompile Include="..\..\..\Bachelor%27s Degree\CS_CT\PrioriART\io.cpp" />
-    <ClCompile Include="..\..\..\Bachelor%27s Degree\CS_CT\PrioriART\main.cpp" />
-    <ClCompile Include="..\..\..\Bachelor%27s Degree\CS_CT\PrioriART\testcase.cpp" />
-    <ClCompile Include="..\..\..\Bachelor%27s Degree\CS_CT\PrioriART\testfunc.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="..\..\..\Bachelor%27s Degree\CS_CT\PrioriART\myimageformat.txt" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

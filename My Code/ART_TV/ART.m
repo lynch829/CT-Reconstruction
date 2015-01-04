@@ -11,13 +11,12 @@ function [Ir, cv] = ART(P, SM, f0, N, lambda)
 
 % Huayu Zhang, 2014
 
-sSM = sparse(SM);
 cv = zeros(N,1);
 f = f0;
 
 for i = 1:N
     lastf = f;
-    f = ARTkernel(P, lastf, sSM, lambda);
+    f = ARTkernel(P, lastf, SM, lambda);
     f(f<0) = 0;
 %     reshape(f,[sqrt(numel(f)),sqrt(numel(f))]) % for debug
     cv(i) = sum((lastf - f).^2);

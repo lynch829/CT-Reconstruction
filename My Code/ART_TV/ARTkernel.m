@@ -1,4 +1,4 @@
-function fn = ARTkernel(P, f, sSM, lambda)
+function fn = ARTkernel(P, f, SM, lambda)
 % ARTKERNEL : one iteration of ART
 % ------------------------------------------
 % P : projection data
@@ -19,7 +19,7 @@ randRIndex = randperm(m);
 for i = 1:m
 %     ri = randRIndex(i);
     ri = i;
-    wi = sSM(ri,:);
+    wi = SM(ri,:);
     if(nnz(wi) ~= 0)
         k = (P(ri) - wi * f) / (wi * wi');
         f = f + lambda * k * wi';

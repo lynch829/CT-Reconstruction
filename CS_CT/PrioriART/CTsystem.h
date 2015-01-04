@@ -8,7 +8,6 @@
 #include<unordered_map>
 #include <map>
 #include <cassert>
-#include "systemmatrix.h"
 #include "ctimage.h"
 
 using namespace std;

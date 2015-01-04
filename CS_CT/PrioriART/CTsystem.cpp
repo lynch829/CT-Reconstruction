@@ -1,6 +1,5 @@
 #include "CTsystem.h"
 #include "testfunc.h"
-#include "auxiliary.h"
 #include "io.h"
 #include "coding.h"
 #include <opencv2\imgproc\imgproc.hpp>
@@ -281,7 +280,7 @@ double SystemMatrix::oneRowMulWith(int i, const Mat& f){
 	size_t fi, fj;	// index of image f (fi,fj)
 	for (ROW::iterator it = index[i].begin(); it != index[i].end(); it++){
 		oneD2twoD(it->first, N, N, fi, fj);
-		P += it->second * f.at<double>(fi, fj);
+		P += it->second * f.at<double>(it->first);
 	}
 	return P;
 }

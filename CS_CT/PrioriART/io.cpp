@@ -1,5 +1,4 @@
 #include "io.h"
-#include "systemmatrix.h"
 #include "coding.h"
 #include <iostream>
 #include <fstream>
